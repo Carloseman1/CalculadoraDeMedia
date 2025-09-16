@@ -22,7 +22,7 @@ public class AlunoRepositorio {
 	                 "codigo VARCHAR(255) PRIMARY KEY," +
 	                 "nome VARCHAR(255)," +
 	                 "turma VARCHAR(255)," +
-	                 "totalAulas INT" + // <-- MUDANÇA AQUI
+	                 "totalAulas INT" +
 	                 ");";
 
 	    try (Connection conn = conexaoAlunoDb.getConnection();

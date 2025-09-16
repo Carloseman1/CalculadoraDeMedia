@@ -14,7 +14,7 @@ public class Avaliacao {
         this.alunoCodigo = alunoCodigo;
     }
 
-    // Getters e Setters
+
     public int getId() {
         return id;
     }
