@@ -1,6 +1,8 @@
 package br.com.cadastro.aluno.main;
 
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.Scanner;
 import br.com.cadastro.aluno.model.Aluno;
@@ -123,7 +125,7 @@ public class Aplicacao {
             String resultadoFinal = servicoCalculo.determinarResultadoFinal(media, frequencia);
 
            
-            java.util.Map<String, Object> relatorio = new java.util.LinkedHashMap<>();
+            Map<String, Object> relatorio = new LinkedHashMap<>();
             relatorio.put("codigo", aluno.getCodigo());
             relatorio.put("nome", aluno.getNome());
             relatorio.put("turma", aluno.getTurma());
